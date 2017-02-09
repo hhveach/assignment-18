@@ -2,10 +2,38 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="./dist/css/styles.css">
 </head>
 <body>
-	<div id="app-container"><h1>I &#10084; u baby shampu</h1></div>
+
+	<div id="app-container">
+
+		<div class="header column-container">
+				<div class="facts">
+					<h1>FACTS About Iceland</h1>
+				</div>
+
+				<div class="nav-bar column-container">
+					<div class="click active" data-route="home">
+						<a href="#home"><p>HOME</p></a>
+					</div>
+				<div class="click" data-route="concerts">
+						<a href="#concerts"><p>Concerts</p></a>
+					</div>
+				<div class="click" data-route="flights">
+						<a href="#flights"><p>Flights</p></a>
+				</div>
+				<div class="click" data-route="carpool">
+						<a href="#carpool"><p>Carpool</p></a>
+				</div>
+			  </div>
+		</div>
+
+		<div class="pulled-content">
+		</div>
+
+	</div>
 	<script type="text/javascript" src="./dist/js/app.js"></script>
 </body>
 </html>
